@@ -1,4 +1,7 @@
-# Website
+# cosmic-docs
+
+Source repository for the CoSMIC documentation site. The site is published at
+https://theopensi.github.io/cosmic-docs/.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 

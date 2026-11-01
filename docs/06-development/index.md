@@ -6,10 +6,12 @@ sidebar_label: Development
 
 ## Source Repositories
 
-- CoSMIC Core: https://github.com/TheOpenSI/CoSMIC/tree/Development
-- CoSMIC UI: https://github.com/TheOpenSI/CoSMIC_UI/tree/development
-- CoSMIC DB: https://github.com/TheOpenSI/CoSMIC_DB/tree/dev
-- CoSMIC Docker: https://github.com/TheOpenSI/CoSMIC_Docker
+- `cosmic-core`: https://github.com/TheOpenSI/cosmic-core/tree/Development
+- `cosmic-platform`: https://github.com/TheOpenSI/cosmic-platform/tree/development
+- `cosmic-db`: https://github.com/TheOpenSI/cosmic-db/tree/dev
+- `cosmic-auth`: https://github.com/TheOpenSI/cosmic-auth/tree/dev
+- `cosmic-docs`: https://github.com/TheOpenSI/cosmic-docs/tree/main
+- `cosmic-docker`: https://github.com/TheOpenSI/cosmic-docker
 
 ## Contributing
 
