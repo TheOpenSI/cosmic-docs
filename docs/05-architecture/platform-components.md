@@ -5,7 +5,7 @@ sidebar_label: Platform Components
 sidebar_position: 2
 ---
 
-The CoSMIC ecosystem consists of three primary projects. A fourth repository, CoSMIC Docker, packages and deploys these three together — it's a deployment tool, not a fourth application component.
+The CoSMIC ecosystem consists of three primary projects. A fourth repository, `cosmic-docker`, packages and deploys these three together — it's a deployment tool, not a fourth application component.
 
 ## CoSMIC Core
 

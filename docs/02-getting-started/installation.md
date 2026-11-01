@@ -10,14 +10,14 @@ The unified Docker repository is the preferred entry point for an integrated dep
 ## 4.1 Create a Workspace and Clone the Repositories
 
 ```bash
-mkdir cosmic-platform
+mkdir cosmic-workspace
 
-cd cosmic-platform
+cd cosmic-workspace
 
-git clone https://github.com/TheOpenSI/CoSMIC_DB.git
-git clone https://github.com/TheOpenSI/CoSMIC.git
-git clone https://github.com/TheOpenSI/CoSMIC_UI.git
-git clone https://github.com/TheOpenSI/CoSMIC_Docker.git
+git clone https://github.com/TheOpenSI/cosmic-db.git
+git clone https://github.com/TheOpenSI/cosmic-core.git
+git clone https://github.com/TheOpenSI/cosmic-platform.git
+git clone https://github.com/TheOpenSI/cosmic-docker.git
 ```
 
 ## 4.2 Select the Documentation Target Branches
@@ -25,14 +25,14 @@ git clone https://github.com/TheOpenSI/CoSMIC_Docker.git
 For the branch set used by this documentation draft, switch each modular repository explicitly:
 
 ```bash
-git -C CoSMIC checkout Development
-git -C CoSMIC_UI checkout development
-git -C CoSMIC_DB checkout dev
+git -C cosmic-core checkout Development
+git -C cosmic-platform checkout development
+git -C cosmic-db checkout dev
 ```
 
 **Branch-name caution**
 
-Git branch names are case-sensitive. CoSMIC Core uses "Development" in the supplied URL, while CoSMIC UI uses "development" and CoSMIC DB uses "dev".
+Git branch names are case-sensitive. `cosmic-core` uses "Development" in the supplied URL, while `cosmic-platform` uses "development" and `cosmic-db` uses "dev".
 
 ## 4.3 Prepare Local Configuration
 
@@ -41,7 +41,7 @@ Open the README and example environment files in each checked-out branch. Copy t
 ```bash
 # Discover example environment files from the workspace root
 
-find CoSMIC CoSMIC_UI CoSMIC_DB CoSMIC_Docker -maxdepth 3 \
+find cosmic-core cosmic-platform cosmic-db cosmic-docker -maxdepth 3 \
   -type f \( -name "*.env_example" -o -name ".env.example" -o -name "*.example" \) -print
 ```
 
@@ -52,7 +52,7 @@ Environment-file names and required variables can change as the development bran
 ## 4.4 Start the Platform
 
 ```bash
-cd CoSMIC_Docker
+cd cosmic-docker
 
 docker compose up --build -d
 ```
