@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://theopensi.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/CoSMIC_docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TheOpenSI', // Usually your GitHub org/user name.
-  projectName: 'CoSMIC_docs', // Usually your repo name.
+  projectName: 'cosmic-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -54,7 +54,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/TheOpenSI/CoSMIC_docs/tree/main/',
+          //   'https://github.com/TheOpenSI/cosmic-docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -107,7 +107,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Issues',
-              href: 'https://github.com/TheOpenSI/CoSMIC/issues',
+              href: 'https://github.com/TheOpenSI/cosmic-core/issues',
             },
           ],
         },

@@ -1,11 +1,11 @@
 {
-  "name": "temp",
-  "version": "0.0.0",
+  "name": "cosmic-docs",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "yarn@4.18.1",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "dev": "docusaurus start --host 0.0.0.0 --poll 1000",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -48,6 +48,6 @@
     ]
   },
   "engines": {
-    "node": ">=20.0"
+    "node": ">=26.0"
   }
 }
