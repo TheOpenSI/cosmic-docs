@@ -5,6 +5,7 @@
 # https://github.com/github/gitignore/blob/main/Node.gitignore                #
 #=============================================================================#
 
+
 # Logs
 logs
 *.log
@@ -139,7 +140,7 @@ dist
 # pnpm
 .pnpm-store
 
-# yarn v3
+# Yarn v3
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -158,6 +159,10 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Docusaurus generated files
+.docusaurus
+.cache-loader
 
 # Misc
 .DS_Store
