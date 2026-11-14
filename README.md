@@ -26,24 +26,24 @@ Then, start by cloning the repository using your preferred method:
 
 ```bash
 # Linux/MacOS
-git clone https://github.com/TheOpenSI/CoSMIC_docs.git    # Using HTTPS (recommended for most users)
-git clone git@github.com:TheOpenSI/CoSMIC_docs.git        # Using SSH (recommended if you've SSH keys configured)
+git clone https://github.com/TheOpenSI/cosmic-docs.git    # Using HTTPS (recommended for most users)
+git clone git@github.com:TheOpenSI/cosmic-docs.git        # Using SSH (recommended if you've SSH keys configured)
 ```
 ```ps1
 # Windows
-git clone https://github.com/TheOpenSI/CoSMIC_docs.git    # Using HTTPS (recommended for most users)
-git clone git@github.com:TheOpenSI/CoSMIC_docs.git        # Using SSH (recommended if you've SSH keys configured)
+git clone https://github.com/TheOpenSI/cosmic-docs.git    # Using HTTPS (recommended for most users)
+git clone git@github.com:TheOpenSI/cosmic-docs.git        # Using SSH (recommended if you've SSH keys configured)
 ```
 
 Once cloned, navigate to the project root directory:
 
 ```bash
 # Linux/MacOS
-cd CoSMIC_docs/
+cd cosmic-docs/
 ```
 ```ps1
 # Windows
-Set-Location CoSMIC_docs\
+Set-Location cosmic-docs\
 ```
 
 ---
@@ -176,3 +176,8 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+---
+# Conventions
+
+This repository follows the shared [EditorConfig conventions](docs/conventions/EDITORCONFIG.md). See the [live documentation](https://github.com/TheOpenSI/cosmic-docs/blob/main/docs/06-development/editorconfig.md) for the rules and editor setup.
